@@ -3,89 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TopTenPicks - Your guide to the best products online</title>
+    <title>Top10Picks - Your guide to the best products online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <h1>TopTenPicks</h1>
-    <p>Your guide to the best products online</p>
+    <div class="header-container">
+        <div class="logo-text">
+            <h1>Top10Picks</h1>
+            <p>Your guide to the best products online</p>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="images/banner.jpg" alt="Shopping banner" class="banner-img">
+    </div>
 </header>
 
-<nav>
-    <ul>
-        <li><a href="#microwave">Microwave Ovens</a></li>
-        <li><a href="#smartwatch">Smart Watches</a></li>
-        <li><a href="#fridge">Fridges</a></li>
-        <li><a href="#airfryer">Air Fryers</a></li>
-    </ul>
-</nav>
+<!-- Intro paragraph -->
+<section class="intro">
+    <p>Check out here the <strong>Top Picks of 2026</strong> — Home Essentials and Electronics handpicked for your lifestyle!</p>
+</section>
 
-<main>
-    <section id="microwave" class="category">
-        <h2>Top 10 Microwave Ovens</h2>
-        <div class="product-grid">
-            <!-- Example product -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Microwave 1">
-                <h3>Panasonic 800W Compact Microwave</h3>
-                <p>Efficient and compact with multiple power settings and sleek design.</p>
-                <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy Online</a>
-            </div>
-
-            <!-- Repeat products -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Microwave 2">
-                <h3>Samsung 1000W Grill Microwave</h3>
-                <p>Versatile microwave with grill feature for crisp reheating.</p>
-                <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy Online</a>
-            </div>
-            <!-- Add up to 10 items -->
+<!-- HOME ESSENTIALS SECTION -->
+<section id="home-essentials" class="category">
+    <h2>🏠 Home Essentials</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="images/microwave.jpg" alt="Microwave">
+            <h3>Microwave Ovens</h3>
+            <p>Discover the best microwaves for quick and even cooking.</p>
+            <a href="microwave.html" class="buy-btn">View Top 10 Picks</a>
         </div>
-    </section>
 
-    <section id="smartwatch" class="category">
-        <h2>Top 10 Smart Watches</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Smart Watch 1">
-                <h3>Apple Watch Series 9</h3>
-                <p>Premium smartwatch with fitness tracking, heart monitoring, and GPS.</p>
-                <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy Online</a>
-            </div>
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Smart Watch 2">
-                <h3>Samsung Galaxy Watch 6</h3>
-                <p>Stylish and powerful smartwatch for Android users.</p>
-                <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy Online</a>
-            </div>
+        <div class="product-card">
+            <img src="images/tv.jpg" alt="Televisions">
+            <h3>Smart TVs</h3>
+            <p>Enjoy high-quality visuals and smart entertainment features.</p>
+            <a href="tv.html" class="buy-btn">View Top 10 Picks</a>
         </div>
-    </section>
 
-    <section id="fridge" class="category">
-        <h2>Top 10 Fridges</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Fridge 1">
-                <h3>LG Smart Inverter Refrigerator</h3>
-                <p>Energy-efficient fridge with large storage and smart temperature control.</p>
-                <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy Online</a>
-            </div>
+        <div class="product-card">
+            <img src="images/fridge.jpg" alt="Refrigerators">
+            <h3>Refrigerators</h3>
+            <p>Energy-efficient fridges to keep your food fresh longer.</p>
+            <a href="fridge.html" class="buy-btn">View Top 10 Picks</a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="airfryer" class="category">
-        <h2>Top 10 Air Fryers</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Air Fryer 1">
-                <h3>Philips XL Air Fryer</h3>
-                <p>Healthy frying with minimal oil and digital controls.</p>
-                <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" class="buy-btn">Buy Online</a>
-            </div>
+<!-- ELECTRONICS SECTION -->
+<section id="electronics" class="category">
+    <h2>⚡ Electronics</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="images/smartwatch.jpg" alt="Smartwatches">
+            <h3>Smart Watches</h3>
+            <p>Track your health, fitness, and style with the latest tech.</p>
+            <a href="smartwatch.html" class="buy-btn">View Top 10 Picks</a>
         </div>
-    </section>
-</main>
+
+        <div class="product-card">
+            <img src="images/earbuds.jpg" alt="Earbuds">
+            <h3>Wireless Earbuds</h3>
+            <p>Experience crystal clear sound and comfort on the go.</p>
+            <a href="earbuds.html" class="buy-btn">View Top 10 Picks</a>
+        </div>
+
+        <div class="product-card">
+            <img src="images/laptop.jpg" alt="Laptops">
+            <h3>Laptops</h3>
+            <p>Explore top laptops for performance, portability, and power.</p>
+            <a href="laptop.html" class="buy-btn">View Top 10 Picks</a>
+        </div>
+    </div>
+</section>
 
 <footer>
     <p>© 2026 TopTenPicks. All rights reserved.</p>
