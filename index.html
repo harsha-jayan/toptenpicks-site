@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header id="home">
     <div class="header-container">
         <div class="logo-text">
             <h1>Top10Picks</h1>
@@ -17,7 +17,7 @@
 
         <nav>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#products">Products</a></li>
             </ul>
         </nav>
@@ -34,19 +34,22 @@
     <p>Check out here the <strong>Top Picks of 2026</strong> — Home Essentials and Electronics handpicked for your lifestyle!</p>
 </section>
 
+<!-- PRODUCTS SECTION -->
+<section id="products">
+
 <!-- HOME ESSENTIALS SECTION -->
 <section id="home-essentials" class="category">
     <h2>🏠 Home Essentials</h2>
     <div class="product-grid">
         <div class="product-card">
-            <img src="images/microwave.jpg" alt="Microwave">
+            <img src="images/oven.jpg" alt="Microwave">
             <h3>Microwave Ovens</h3>
             <p>Discover the best microwaves for quick and even cooking.</p>
-            <a href="microwave.html" class="buy-btn">View Top 10 Picks</a>
+            <a href="products/microwave.html" class="buy-btn">View Top 10 Picks</a>
         </div>
 
         <div class="product-card">
-            <img src="images/tv.jpg" alt="Televisions">
+            <img src="images/tv.png" alt="Televisions">
             <h3>Smart TVs</h3>
             <p>Enjoy high-quality visuals and smart entertainment features.</p>
             <a href="tv.html" class="buy-btn">View Top 10 Picks</a>
@@ -66,7 +69,7 @@
     <h2>⚡ Electronics</h2>
     <div class="product-grid">
         <div class="product-card">
-            <img src="images/smartwatch.jpg" alt="Smartwatches">
+            <img src="images/watch.jpg" alt="Smartwatches">
             <h3>Smart Watches</h3>
             <p>Track your health, fitness, and style with the latest tech.</p>
             <a href="smartwatch.html" class="buy-btn">View Top 10 Picks</a>
@@ -86,6 +89,7 @@
             <a href="laptop.html" class="buy-btn">View Top 10 Picks</a>
         </div>
     </div>
+</section>
 </section>
 
 <footer>
